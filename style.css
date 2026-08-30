@@ -240,11 +240,23 @@ body {
 
 @media (max-width: 720px) {
   .hero {
-    padding: 64px 24px 72px;
+    overflow-y: hidden;
+    padding: 28px 20px 20px;
   }
 
   .hero__flower {
-    width: 320px;
+    width: 240px;
+  }
+
+  .hero__eyebrow {
+    margin: 0 0 10px;
+    font-size: 10px;
+  }
+
+  .hero__title {
+    margin: 0 0 24px;
+    font-size: 20px;
+    line-height: 1.25;
   }
 
   .hero__features {
@@ -253,7 +265,28 @@ body {
   }
 
   .hero__feature {
-    gap: 18px;
+    gap: 12px;
+    padding: 10px 0;
+  }
+
+  .hero__feature-icon,
+  .hero__feature-icon lord-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hero__feature h3 {
+    font-size: 16px;
+  }
+
+  .hero__feature p {
+    margin-top: 4px;
+    font-size: 11px;
+  }
+
+  .hero__feature-arrow svg {
+    width: 12px;
+    height: 12px;
   }
 }
 
