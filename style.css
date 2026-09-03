@@ -94,7 +94,7 @@ body {
   margin: 0 0 64px;
   font-family: var(--font-title);
   font-weight: 400;
-  font-size: clamp(30px, 4.4vw, 58px);
+  font-size: clamp(48px, 4.4vw, 58px);
   line-height: 1.28;
   color: var(--dark);
   max-width: 1180px;
