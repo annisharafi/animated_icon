@@ -250,12 +250,12 @@ body {
 
   .hero__eyebrow {
     margin: 0 0 10px;
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .hero__title {
-    margin: 0 0 24px;
-    font-size: 20px;
+    margin: 0 0 40px;
+    font-size: 48x;
     line-height: 1.25;
   }
 
@@ -281,7 +281,7 @@ body {
 
   .hero__feature p {
     margin-top: 4px;
-    font-size: 11px;
+    font-size: 14px;
   }
 
   .hero__feature-arrow svg {
